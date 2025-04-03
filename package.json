@@ -1,0 +1,16 @@
+{
+  "name": "easter-bunny-platformer",
+  "version": "1.0.0",
+  "description": "A simple platformer game featuring a player-controlled Easter bunny that collects eggs.",
+  "main": "src/js/game.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined yet.'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
