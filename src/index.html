@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Easter Bunny Platformer</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <canvas id="gameCanvas" width="800" height="600"></canvas>
+      <div class="controls-info">
+        <h2>Controls:</h2>
+        <p>Computer: Press SPACE to jump</p>
+        <p>Mobile: Tap anywhere on the screen to jump</p>
+      </div>
+    </div>
     <script type="module" src="js/collision.js"></script>
     <script type="module" src="js/player.js"></script>
     <script type="module" src="js/egg.js"></script>
     <script type="module" src="js/platform.js"></script>
     <script type="module" src="audio/sounds.js"></script>
     <script type="module" src="js/game.js"></script>
-</body>
+  </body>
 </html>

@@ -51,6 +51,17 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
+// Touch controls
+canvas.addEventListener('touchstart', (event) => {
+    event.preventDefault();
+    player.jump();
+});
+
+// Also allow mouse clicks for testing on desktop
+canvas.addEventListener('click', () => {
+    player.jump();
+});
+
 function gameLoop() {
   // Save the current canvas state
   ctx.save();
